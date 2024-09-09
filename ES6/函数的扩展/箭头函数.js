@@ -1,6 +1,7 @@
-function multiply(a,b = 1){
-    return a * b;
-}
-console.log(multiply(5,2))
-
-console.log(multiply(5))
+// ES5 写法
+function getName(name) {
+    return name;
+  }
+  
+  // 箭头函数写法
+  const getName = (name) => name;
