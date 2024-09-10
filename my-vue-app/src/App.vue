@@ -7,10 +7,10 @@
       <el-main>
         <el-input v-model="newTodo" @keyup.enter="addTodo" placeholder="输入待办事项" style="margin-bottom: 20px" />
         <div>
-          <el-card v-for="todo in todos" :key="todo.id" class="todo-item" style="maigin-bottom: 10px">
+          <el-card v-for="todo in todos" :key="todo.id" class="todo-item" style="margin-bottom: 10px">
             <div style="display: flex; align-items: center;">
               <el-checkbox v-model="todo.completed" />
-              <span style="maigin-left: 10px">{{ todo.text }}</span>
+              <span style="margin-left: 10px">{{ todo.text }}</span>
             </div>
           </el-card>
         </div>
