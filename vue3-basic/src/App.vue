@@ -36,27 +36,54 @@
     <!-- <EnterKey /> -->
     <!-- <Child /> -->
     <!-- <Parent /> -->
-     <!-- <Increment /> -->
-      <!-- <InputModel /> -->
-      <!-- <InputModel2 /> -->
-      <!-- <InputModel3 /> -->
-      <!-- <InputModel4 /> -->
-      <!-- <InputModel5 /> -->
-      <!-- <Modify /> -->
-      <!-- <Modify2 /> -->
-      <!-- <Modify3 /> -->
-      <!-- <CustomInputParent /> -->
-      <!-- <DateTimePickerParent /> -->
-      <!-- <DOM /> -->
-      <DOM2 />
+    <!-- <Increment /> -->
+    <!-- <InputModel /> -->
+    <!-- <InputModel2 /> -->
+    <!-- <InputModel3 /> -->
+    <!-- <InputModel4 /> -->
+    <!-- <InputModel5 /> -->
+    <!-- <Modify /> -->
+    <!-- <Modify2 /> -->
+    <!-- <Modify3 /> -->
+    <!-- <CustomInputParent /> -->
+    <!-- <DateTimePickerParent /> -->
+    <!-- <DOM /> -->
+    <!-- <DOM2 /> -->
+    <!-- <UserForm /> -->
+    <!-- <UserFormParent /> -->
+    <!-- <UserProfileParent /> -->
+    <!-- <SendEmail /> -->
+    <!-- <DataFetcher /> -->
+    <!-- <CardParent /> -->
+    <!-- <GoodsList /> -->
+    <!-- <LoginPage /> -->
+    <!-- <MyProfile /> -->
+    <BlogList />
+    <!-- <OfficialPage /> -->
 
   </div>
 </template>
 
 <script setup lang="ts">
+// import OfficialPage from './components/OfficialPage.vue';
+
+import BlogList from './components/BlogList.vue';
+// import MyProfile from './components/MyProfile.vue';
+
+// import LoginPage from './components/LoginPage.vue';
+
+// import CardParent from './components/CardParent.vue';
+
+// import DataFetcher from './components/DataFetcher.vue';
+// import GoodsList from './components/GoodsList.vue';
+// import SendEmail from './components/SendEmail.vue';
+
 // import DateTimePickerParent from './components/DateTimePickerParent.vue';
 // import DOM from './components/DOM.vue';
-import DOM2 from './components/DOM2.vue';
+// import DOM2 from './components/DOM2.vue';
+// import UserForm from './components/UserForm.vue';
+// import UserFormParent from './components/UserFormParent.vue';
+// import UserProfileParent from './components/UserProfileParent.vue';
 
 // import CustomInputParent from './components/CustomInputParent.vue';
 
