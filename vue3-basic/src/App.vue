@@ -58,16 +58,16 @@
     <!-- <GoodsList /> -->
     <!-- <LoginPage /> -->
     <!-- <MyProfile /> -->
-    <BlogList />
-    <!-- <OfficialPage /> -->
+    <!-- <BlogList /> -->
+    <OfficialPage />
 
   </div>
 </template>
 
 <script setup lang="ts">
-// import OfficialPage from './components/OfficialPage.vue';
+import OfficialPage from './components/OfficialPage.vue';
 
-import BlogList from './components/BlogList.vue';
+// import BlogList from './components/BlogList.vue';
 // import MyProfile from './components/MyProfile.vue';
 
 // import LoginPage from './components/LoginPage.vue';
