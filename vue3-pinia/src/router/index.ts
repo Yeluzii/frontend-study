@@ -9,6 +9,16 @@ const routes = [
     redirect: "/counter",
   },
   {
+    path: "/login",
+    name: "Login",
+    component: () => import("../views/Login.vue"),
+  },
+  {
+    path: "/profile",
+    name: "Profile",
+    component: () => import("../views/Profile.vue"),
+  },
+  {
     path: "/counter",
     name: "Counter",
     component: Counter,
